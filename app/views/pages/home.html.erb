@@ -1,21 +1,30 @@
-<div class="center jumbotron">
+<div class="jumbotron main">
   
-  <h1>My Recipes Love</h1>
-  <h3>Learn and share cooking recipes </h3>
+ 
+  <h4><span class="glyphicon glyphicon-grain" aria-hidden="true"></span>
 
-<br>
-<%= link_to "Sign Up Now", register_path, class:"btn btn-lg btn-success" %>
+    Learn and share cooking recipes 
+
+
+<%= link_to "Sign Up", register_path, class:"btn btn-lg btn-success" %>
+</h4>
 </div>
 <div class="row" style="margin: 0 auto">
   
     <div class="col-sm-2"></div>
   <div class="col-sm-5">
+    
     <h3 class="midrow">
-      View Recipes</h3>
+       What's cooking</h3>
     </h3>
-    <h2 class="left">Browse and View Recipes as Guest</h2>
+    <blockquote>
+      
+      <p>Check out delicious menu!
+      </p>
+    </blockquote>
+  
 <p>
-  <%= link_to "Browse Recipe Listings", recipes_path, class: "btn btn-warning btn-small" %>
+  <%= link_to "Browse Recipes", recipes_path, class: "btn btn-warning btn-small" %>
 </p>
   </div>
 
@@ -23,9 +32,13 @@
     <h3 class="midrow">
       Sign in to your account</h3>
     </h3>
-    <h2 class="left">Add / Update your recipes</h2>
+    <blockquote>
+      
+      <p>Update or Add Your Recipes
+      </p>
+    </blockquote>
 <p>
-  <%= link_to "Log in to your account", login_path, class: "btn btn-warning btn-small" %>
+  <%= link_to "Log In", login_path, class: "btn btn-warning btn-small" %>
 </p>
   </div>
   </div>

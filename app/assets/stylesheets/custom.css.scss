@@ -5,6 +5,30 @@ $navbar-default-color: $light-orange;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.main {
+    background: image-url("cutting-board.jpg") no-repeat center center; 
+    height: 300px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+     background-size: cover;
+     border: 1px solid #000;
+  
+    
+    
+    h4 {
+   line-height: 400px;
+    color: #fff;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: bottom;
+   
+  }
+ 
+}
+
+
+  
 #logo {
   margin-top: 10px;
   margin-bottom: 10px;
